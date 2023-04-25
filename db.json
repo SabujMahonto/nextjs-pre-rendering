@@ -1,0 +1,24 @@
+{
+    "cosmetics":[
+        {
+            "id":1,
+            "title":"Lipstick",
+            "price":100
+        },
+        {
+            "id":2,
+            "title":"Lipstick",
+            "price":500
+        },
+        {
+            "id":3,
+            "title":"Lipstick",
+            "price":800
+        },
+        {
+            "id":4,
+            "title":"Lipstick",
+            "price":1100
+        }
+    ]
+}
