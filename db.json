@@ -1,24 +1,29 @@
 {
-    "cosmetics":[
-        {
-            "id":1,
-            "title":"Lipstick",
-            "price":100
-        },
-        {
-            "id":2,
-            "title":"Lipstick",
-            "price":500
-        },
-        {
-            "id":3,
-            "title":"Lipstick",
-            "price":800
-        },
-        {
-            "id":4,
-            "title":"Lipstick",
-            "price":1100
-        }
-    ]
+  "cosmetics": [
+    {
+      "id": 1,
+      "title": "Lipstick",
+      "price": 900
+    },
+    {
+      "id": 2,
+      "title": "alta-Up ",
+      "price": 500
+    },
+    {
+      "id": 3,
+      "title": "muck-up brash",
+      "price": 800
+    },
+    {
+      "id": 4,
+      "title": "perfume blue bird",
+      "price": 12100
+    },
+    {
+      "id": 5,
+      "title": "perfume wild stone",
+      "price": 120
+    }
+  ]
 }
