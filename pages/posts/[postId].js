@@ -11,12 +11,24 @@ const PostDetails = ({ post }) => {
 
 export default PostDetails;
 
-export async function getStaticPaths() {
-  return {
-    paths: [{ params: { postId: "1" } }],
-    fallback: "blocking",
-  };
+export async function getStaticPaths(){
+
+  const res = await fetch("https://jsonplaceholder.typicode.com/posts");
+  const data = await res.json();
+  const paths = data.map((post)=>{
+    return{
+      params:{
+        postId :`${post.id}`
+      },
+    }
+  })
+
+  return{
+    paths,
+    fallback : false,
+  }
 }
+
 
 export async function getStaticProps(context) {
   const { params } = context;
