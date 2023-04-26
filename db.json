@@ -23,7 +23,59 @@
     {
       "id": 5,
       "title": "perfume wild stone",
-      "price": 120
+      "price": 120  
+    }
+  ],
+  "courses":[
+    {
+      "id":1,
+      "title":"Web Development",
+      "price":10000
+    },
+    {
+      "id":2,
+      "title":"UX-UY Design",
+      "price":8000
+    },
+    {
+      "id":3,
+      "title":"Cyber Security",
+      "price":12000
+    }
+  ],
+  "cars":[
+    {
+      "id":1,
+      "title":"lumber gini",
+      "price":2400000
+    },
+    {
+      "id":2,
+      "title":"Tata",
+      "price":5600000
+    },
+    {
+      "id":3,
+      "title":"ToYota",
+      "price":2890000
+    }
+  ],
+  "frameworks":[
+    {
+      "id":1,
+      "title":"React js",
+      "core":"javaScript"
+    },
+    {
+      "id":2,
+      "title":"Tailwind css",
+      "core":"CSS"
+    },
+    {
+      "id":2,
+      "title":"Next js",
+      "core":"React Js"
     }
   ]
+  
 }
