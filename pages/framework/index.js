@@ -19,7 +19,7 @@ export default function Framework({frameworks}) {
 }
 
 export async function getServerSideProps(){
-    const res = await fetch(" http://localhost:4000/frameworks");
+    const res = await fetch("http://localhost:4000/frameworks");
     const data = await res.json();
 
     return{
