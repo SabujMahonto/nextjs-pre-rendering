@@ -76,6 +76,24 @@
       "title":"Next js",
       "core":"React Js"
     }
+  ],
+  "eid-gifts":[
+    {
+      "id":1,
+      "title":"panjabi",
+      "price":500
+    },
+    {
+      "id":2,
+      "title":"sari",
+      "price":1500
+    },
+    {
+      "id":3,
+      "title":"Pant or cap",
+      "price":2000
+    }
+
   ]
   
 }
